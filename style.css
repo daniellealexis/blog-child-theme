@@ -1,0 +1,220 @@
+/*
+Theme Name:Edge Child
+Theme URI: http://themefreesia.com/themes/edge
+Author: Theme Freesia
+Author URI: http://themefreesia.com
+Description: Edge is a Responsive Blogger WordPress Theme, Designed and Developed by Theme Freesia. Edge is Simple, clean, blog-focused, and designed for clarity. It is also translation ready and easily customizable with lots of options using Customizer. It consists contact us template, gallery template, widgets and sidebar. Get free support at http://themefreesia.com/support-forum/ and View demo site at http://demo.themefreesia.com/edge.
+Version: 1.0
+Text Domain: edge-child
+Template: edge
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: threaded-comments, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, sticky-post, theme-options, translation-ready, post-formats, custom-logo, footer-widgets, blog, e-commerce, holiday, news, photography, portfolio
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+==================================================
+*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Brown', sans-serif;
+}
+
+body, button, input, select, textarea {
+    font: 400 19px/1.6 Georgia, serif;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+
+/**
+ *  Header
+ */
+
+#site-branding img {
+    height: 100px;
+    width: 100px;
+}
+
+#site-title {
+    padding-bottom: 8px;
+}
+
+#site-description {
+    letter-spacing: 0;
+    font-family: 'Brown', sans-serif;
+}
+
+.main-navigation a {
+    font-family: 'Brown', sans-serif;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+}
+
+#search-toggle {
+    margin: 0;
+    padding: 6px 10px 0;
+}
+
+.social-links a {
+    height: 26px;
+    width: 28px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+/**
+ * Sidebar / Menu's
+ */
+
+#secondary {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+
+/**
+ *  Posts
+ */
+
+.entry-title {
+    padding-bottom: 0.25em;
+}
+
+.entry-meta, .entry-title {
+    text-align: left;
+    font-family: 'Brown', sans-serif;
+}
+
+.entry-content a,
+.textwidget a {
+    text-decoration: underline;
+}
+
+.post:first-child .entry-content p:first-child:first-letter {
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    border: none;
+    display: inline;
+}
+
+.cat-links, .cat-links a,
+.tag-links, .tag-links a {
+    font-family: 'Brown', sans-serif;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+    font-family: Brown;
+    line-height: 1;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.5em 1em 0.7em;
+}
+
+/**
+ * Comments
+ */
+
+.comment-author img {
+    margin-right: 0.5em;
+}
+
+.comment-metadata {
+    margin: 0.75em 0 0.5em;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.comment-metadata a {
+    color: #747474;
+}
+
+/**
+ * Color Overwrites
+ */
+
+a,
+ul li a:hover,
+ol li a:hover,
+ul.default-wp-page li a,
+.widget ul li a:hover,
+.widget_contact ul li a:hover,
+.widget-title a:hover,
+.site-info .copyright a:hover,
+#colophon .widget ul li a:hover,
+.go-to-top a,
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus,
+.header-search:hover,
+.header-search-x:hover,
+.top-header .widget_contact ul li a:hover,
+.main-navigation a:hover,
+.main-navigation ul li.current-menu-item a,
+.main-navigation ul li.current_page_ancestor a,
+.main-navigation ul li.current-menu-ancestor a,
+.main-navigation ul li.current_page_item a,
+.main-navigation ul li:hover > a,
+.main-navigation li.menu-item-has-children > a:hover:after,
+.main-navigation li.page_item_has_children > a:hover:after,
+.main-navigation ul li ul li a:hover,
+.main-navigation ul li ul li:hover > a,
+.main-navigation ul li.current-menu-item ul li a:hover,
+.entry-title a:hover,
+.entry-title a:focus,
+.entry-title a:active,
+.entry-meta span:hover,
+.entry-meta a:hover,
+.entry-meta .entry-format a,
+.entry-format:before,
+.entry-meta .entry-format:before,
+.entry-header .entry-meta .entry-format:before,
+.cat-links,
+.cat-links a,
+.tag-links,
+.tag-links a,
+#footer-navigation a:hover,
+#bbpress-forums .bbp-topics a:hover {
+    color: #1CD8D2;
+}
+
+.vivid,
+.btn-default:hover,
+input[type="reset"],
+input[type="button"],
+input[type="submit"],
+.search-submit,
+#colophon .widget-title:after,
+.bbp-submit-wrapper button.submit,
+.go-to-top a:hover {
+    background-color: #1CD8D2;
+}
+
+.vivid,
+.btn-default:hover,
+.go-to-top a,
+.cat-links,
+.tag-links,
+.search-submit,
+.bbp-submit-wrapper button.submit {
+    border-color: #1CD8D2;
+}
+
+/* Webkit */
+::selection {
+    background: #1CD8D2;
+}
+/* Gecko/Mozilla */
+::-moz-selection {
+    background: #1CD8D2;
+}
